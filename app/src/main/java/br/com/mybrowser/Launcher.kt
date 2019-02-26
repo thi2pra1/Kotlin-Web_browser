@@ -25,7 +25,7 @@ class Launcher : AppCompatActivity() {
 
             //matando a Activity atual
             finish()
-        }, 3000)
+        }, 2000)
 
     }
 }

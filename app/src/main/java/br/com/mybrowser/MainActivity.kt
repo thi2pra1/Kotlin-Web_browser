@@ -37,8 +37,8 @@ class MainActivity : AppCompatActivity() {
             var urlPesquisada =  "https://" + edtBarraEndereco.text.toString()
             wvPrincipal.loadUrl("$urlPesquisada")
 
-            println("Propriedade URL = " + wvPrincipal.url)
-            println("Valor campo urlPesquisada =  $urlPesquisada")
+            Log.d("MainActivity","Propriedade URL = ${wvPrincipal.url}")
+            Log.d("MainActivity", "Valor campo urlPesquisada =  $urlPesquisada")
 
             edtBarraEndereco.getText().clear()
         }
